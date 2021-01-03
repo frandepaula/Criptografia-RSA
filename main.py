@@ -49,7 +49,7 @@ if __name__ == '__main__':
 	print("\nTEXTO CIFRADO:\n",c)
 	dec = exponenciacao(c,d,n) #decriptação 
 	print("\nTEXTO DECRIPTADO:\n",dec,"\n")
-	print("\nTEXTO DECRIPTADO CONVERTIDO PARA STRING:\n",(long_to_bytes(dec)))
+	print("\nTEXTO DECRIPTADO CONVERTIDO PARA STRING: \n",(long_to_bytes(dec)))
 	
 
 
