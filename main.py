@@ -48,7 +48,7 @@ if __name__ == '__main__':
 	c = exponenciacao(m,e,n) #encriptação 
 	print("\nTEXTO CIFRADO:\n",c)
 	dec = exponenciacao(c,d,n) #decriptação 
-	print("\nTEXTO DECRIPTADO:\n",dec,"\n")
+	print("\nTEXTO DECRIPTADO: \n",dec,"\n")
 	print("\nTEXTO DECRIPTADO CONVERTIDO PARA STRING: \n",(long_to_bytes(dec)))
 	
 
